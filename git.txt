@@ -1,0 +1,82 @@
+mkdir < new folder
+cd < enter location
+
+touch < to create file
+start (filename) - to open file
+
+cd ../ < move back
+
+git init < initialize  repo
+
+git clone link< bring githum repo to local
+
+ls < see all directory 
+
+git status > see changes
+
+pwd < see in which directory i am
+
+git stage---------
+
+git add --all < up in stage all files / git add -A
+
+git add . < stage specific folder
+
+git add * < dont stage deleted file
+
+git add filename < to stage specific file
+
+git add * extention < stage al same extension type file
+
+
+
+git commit -m 'comment' < commit 
+
+git reset ----------
+
+git reset < reset staged file
+git reset HEAD~ < reset after commit
+git reset --hard < git hard reset for restore delete file
+
+git remove ---------
+
+rm (file name) > remove file
+rm (file name) -f > remove force fully if edited
+rm --cached (file name) > do not remove file from directory but deleted in staged
+
+git branch -----
+
+git branch > to check branches
+git branch (name) > to create a branch
+git checkout(branchname) > to swich between branches
+git merge (branch name) > to merge between branch
+git branch -M (new branch name) > rename branch
+git branch -D (branch name) > delete branch
+git diff (branch name) > check differences
+
+to set remote ---------
+
+git remote add origin (link) > to set origin
+git remote -v > to chek origin 
+
+git remote rm origin > to remove origin
+
+to push -------
+
+git push origin branch 
+git push -u origin main > if want to push in same branch
+
+to pull ---------
+
+git pull origin main
+
+
+
+
+
+
+
+
+
+
+
