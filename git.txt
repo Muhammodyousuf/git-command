@@ -58,6 +58,7 @@ to set remote ---------
 
 git remote add origin (link) > to set origin
 git remote -v > to chek origin 
+git remote set-url origin https://(token)@github.com/muhammodyousuf/(repo name)
 
 git remote rm origin > to remove origin
 
